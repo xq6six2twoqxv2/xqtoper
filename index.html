@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>[ ВИЗИТКА ]</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/necolas.github.io_normalize.css_8.0.1_normalize.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://wsxzaq127.github.io/style.css">
+</head>
+<body>
+	<header id="top">
+		<div class="container header_wrap">
+			<div class="logo">
+				<img src="img/img.png" alt="" class="logo__img">
+				<h4 class="logo__txt">Katerinkin</h4>
+			</div>
+			<nav class="nav">
+				<ul class="nav_list">
+					<li class="list_item">
+						<a href="#" class="list_link">Home</a>
+					</li>
+					<li class="list_item">
+						<a href="#about" class="list_link">About me</a>
+					</li>
+					<li class="list_item">
+						<a href="#video"  class="list_link">Video</a>
+					</li>
+					<li class="list_item">
+						<a href="#gallery"  class="list_link">Gallery</a>
+					</li>
+					<li class="list_item">
+						<a href="#footer" class="list_link">Contacts</a>
+					</li>
+				</ul>
+			</nav>
+			<button class="burger">
+				<div class="burger__line"></div>
+				<div class="burger__line"></div>
+				<div class="burger__line"></div>
+			</button>
+		</div>
+	</header>
+	<main class="main">
+		<section class="hero-block">
+			<div class="container hero-block__wrap">
+				<img src="img/hero-pic.png" alt="" class="hero-block__img">
+				<div class="hero-block__content">
+					<h1 class="hero-block__title">I’m, Katerinkin
+					Nikita!</h1>
+					<p class="hero-block__text">I have been doing web-programming for no more than 2 months</p>
+					<button class="hero-block__btn">Contact me</button>
+				</div>
+			</div>
+		</section>
+		<section id="about" class="about-autor">
+			<div class="container about-autor__wrap">
+				<h2 class="about-autor__title">About me</h2>
+				<div class="about-autor__content">
+					<div class="about-autor__skills">
+						<h3 class="skills__title">My skills</h3>
+						<ul class="skills__list">
+							<li class="skills__item">
+								<h4 class="skills__item-title">HTML</h4>
+								<div class="skills__progress_bg">
+									<div class="skills_progress_fg-0"></div>
+								</div>
+							</li>
+							<li class="skills__item">
+								<h4 class="skills__item-title">CSS</h4>
+								<div class="skills__progress_bg">
+									<div class="skills_progress_fg-1"></div>
+								</div>
+							</li>
+							<li class="skills__item">
+								<h4 class="skills__item-title">Figma</h4>
+								<div class="skills__progress_bg">
+									<div class="skills_progress_fg-2"></div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<img src="img/skills.png" alt="" class="skills_img">
+				</div>
+			</div>
+		</section>
+	</main>
+	<main>
+		<section id="video" class="video">
+			<div class="container video__wrap">
+				<div class="video__txt">
+					<h2 class="video__title">Video</h2>
+				</div>
+				<iframe class="video__item" src="https://www.youtube.com/embed/J42SZXS-_Qo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+		</section>
+
+		<section id="gallery" class="gallary">
+		<h2 class="title__gallary">Gallery</h2>
+		<ul class="list__gallary">
+			<li class="item__gallary">
+				<a href="img/gal2.png" class="lightzoom">
+					<img src="img/gal2.png" class="img__gallary">
+				</a>
+			</li>
+
+			<li class="item__gallary">
+				<a href="img/gal1.png" class="lightzoom">
+					<img src="img/gal1.png" class="img__gallary">
+				</a>
+			</li>
+
+			<li class="item__gallary">
+					<p class="text__gallary">To be continued...</p>
+			</li>
+		</ul>
+	</section>
+
+	</main>
+	<footer id="footer">
+		<div class="container footer__wrap">
+			<h4 class="footer__text">&copy; 2023. All rights reserved.</h4>
+			<div class="footer__icon-wrap">
+				<img src="img/telegram.png" alt="" class="footer__icon">
+				<img src="img/vk.png" alt="" class="footer__icon">
+				<img src="img/discord.png" alt="" class="footer__icon">
+			</div>
+		</div>
+	</footer>
+
+	<div class="row">
+		<a href="#top">
+		<img src="img/row.png"class="img__row">
+	</div>
+	</a>
+
+	<script type="text/javascript" src="https://wsxzaq127.github.io/lightzoom.js"></script>
+	<script type="text/javascript">
+ 			jQuery('.lightzoom').lightzoom({speed: 400, viewTitle: true});
+		</script>
+</body>
+</html>
